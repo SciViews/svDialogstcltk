@@ -7,7 +7,7 @@
 \method{dlg_save}{tcltkGUI}(
   default = "untitled",
   title = "Save file as",
-  filters = dlgFilters["All", ],
+  filters = dlg_filters["All", ],
   ...,
   gui = .GUI
 )

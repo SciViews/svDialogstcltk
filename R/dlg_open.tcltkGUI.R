@@ -27,12 +27,15 @@
 #' dlg_open(multiple = TRUE)$res
 #' }
 dlg_open.tcltkGUI <- function(default = "", title = if (multiple) "Select files"
-else "Select file", multiple = FALSE, filters = dlgFilters["All", ], ...,
+else "Select file", multiple = FALSE, filters = dlg_filters["All", ], ...,
 gui = .GUI) {
   gui$setUI(args = list(default = default, title = title,
     multiple = multiple, filters = filters), widgets = "tcltkGUI")
   # In tkgetOpenFile, filters are presented differently!
   filters <- gui$args$filters
+  # If filters is not a matrix, transform it now
+  if (is.null(dim(filters)))
+    filters <- matrix(filters, ncol = 2, byrow = TRUE)
   filters <- paste("{\"", filters[, 1], "\" {\"", gsub(";", "\" \"",
     filters[, 2]), "\"}}", sep = "", collapse = " ")
   # Use tkgetOpenFile()

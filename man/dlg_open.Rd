@@ -8,7 +8,7 @@
   default = "",
   title = if (multiple) "Select files" else "Select file",
   multiple = FALSE,
-  filters = dlgFilters["All", ],
+  filters = dlg_filters["All", ],
   ...,
   gui = .GUI
 )

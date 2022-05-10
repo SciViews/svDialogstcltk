@@ -24,11 +24,14 @@
 #' dlg_save(title = "Save R script to", filters = dlg_filters[c("R", "All"), ])$res
 #' }
 dlg_save.tcltkGUI <- function(default = "untitled", title = "Save file as",
-filters = dlgFilters["All", ], ..., gui = .GUI) {
+filters = dlg_filters["All", ], ..., gui = .GUI) {
   gui$setUI(args = list(default = default, title = title, filters = filters),
     widgets = "tcltkGUI")
   # In tkgetSaveFile, filters are presented differently!
   filters <- gui$args$filters
+  # If filters is not a matrix, transform it now
+  if (is.null(dim(filters)))
+    filters <- matrix(filters, ncol = 2, byrow = TRUE)
   filters <- paste("{\"", filters[, 1], "\" {\"", gsub(";", "\" \"",
     filters[, 2]), "\"}}", sep = "", collapse = " ")
   # Use tkgetSaveFile()

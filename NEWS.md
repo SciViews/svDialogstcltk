@@ -10,6 +10,8 @@
 
 -   README.md file added.
 
+-   in `dlg_open()` and `dlg_save()` if `filters =` was not a matrix, but a vector, an error was generated. Now, it is silently transformed into a 2-cols matrix.
+
 # svDialogstcltk 0.9-4
 
 -   Removed {svDialogs} in Enhances field, because already in Depends.
