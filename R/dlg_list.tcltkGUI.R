@@ -1,4 +1,4 @@
-#' A Tcl/Tk version of the {svDialogs} list selection dialog box
+#' A Tcl/Tk version of the \{svDialogs\} list selection dialog box
 #'
 #' @param choices The list of items. It is coerced to character strings.
 #' @param preselect A list of preselections, or `NULL` (then, the first element

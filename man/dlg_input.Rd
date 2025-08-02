@@ -2,7 +2,7 @@
 % Please edit documentation in R/dlg_input.tcltkGUI.R
 \name{dlg_input.tcltkGUI}
 \alias{dlg_input.tcltkGUI}
-\title{A Tcl/Tk version of the {svDialogs} input a string or value dialog box}
+\title{A Tcl/Tk version of the \{svDialogs\} input a string or value dialog box}
 \usage{
 \method{dlg_input}{tcltkGUI}(message = "Enter a value", default = "", ..., gui = .GUI)
 }

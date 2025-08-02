@@ -1,5 +1,5 @@
 ## ----setup, include=FALSE-----------------------------------------------------
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 
 ## -----------------------------------------------------------------------------
 # This must be TRUE in order to see the Tcl/Tk dialog boxes
@@ -13,15 +13,15 @@ library(svDialogs)
 def_widgets <- gui_widgets(.GUI)
 def_widgets
 
-## ---- eval=FALSE--------------------------------------------------------------
-#  dlg_message("Hello world!")$res
+## ----eval=FALSE---------------------------------------------------------------
+# dlg_message("Hello world!")$res
 
 ## -----------------------------------------------------------------------------
 library(svDialogstcltk)
 gui_widgets(.GUI)
 
-## ---- eval=FALSE--------------------------------------------------------------
-#  dlg_message("Hello world!")$res
+## ----eval=FALSE---------------------------------------------------------------
+# dlg_message("Hello world!")$res
 
 ## -----------------------------------------------------------------------------
 # Restore nativeGUI + textual fallback for the default .GUI

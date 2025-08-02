@@ -1,4 +1,4 @@
-#' A Tcl/Tk version of the {svDialogs} directory selection dialog box
+#' A Tcl/Tk version of the \{svDialogs\} directory selection dialog box
 #'
 #' Select an existing directory, or create a new one.
 #'

@@ -2,7 +2,7 @@
 % Please edit documentation in R/dlg_dir.tcltkGUI.R
 \name{dlg_dir.tcltkGUI}
 \alias{dlg_dir.tcltkGUI}
-\title{A Tcl/Tk version of the {svDialogs} directory selection dialog box}
+\title{A Tcl/Tk version of the \{svDialogs\} directory selection dialog box}
 \usage{
 \method{dlg_dir}{tcltkGUI}(default = getwd(), title = "Choose a directory", ..., gui = .GUI)
 }

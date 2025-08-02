@@ -1,18 +1,20 @@
 ---
-title: "SciViews svDialogs, Tcl/Tk version"
+title: "'SciViews::R' - Standard Dialog Boxes using Tcl/Tk"
 author: "Philippe Grosjean (phgrosjean@sciviews.org)"
 date: "`r Sys.Date()`"
 output:
   rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 3
     fig_caption: yes
 vignette: >
-  %\VignetteIndexEntry{SciViews svDialogs, Tcl/Tk version}
+  %\VignetteIndexEntry{'SciViews::R' - Standard Dialog Boxes using Tcl/Tk}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 ```
 
 This package demonstrate how to reimplement the {svDialogs} functions using different widgets and GUI. Only a couple of dialog boxes are currently implementation, just for the sake of that demonstration.
@@ -54,7 +56,7 @@ A new item, `tcltkGUI`, is inserted at the first position of the `gui_widgets()`
 dlg_message("Hello world!")$res
 ```
 
-# Using Tcl/Tk dialog boxes in a custom GUI
+## Using Tcl/Tk dialog boxes in a custom GUI
 
 The {svDialogs} logic allows to implement simultaneously various GUIs, with different features. For instance, you may be interested to implement a Tcl/Tk-only GUI side-by-side with native dialog boxes that are used for the rest of the R process. In this case, you must manually insert the GUI you want to use in the GUI object.
 

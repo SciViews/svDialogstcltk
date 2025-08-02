@@ -4,12 +4,9 @@
 \name{svDialogstcltk-package}
 \alias{svDialogstcltk}
 \alias{svDialogstcltk-package}
-\title{svDialogstcltk: 'SciViews' - Standard Dialog Boxes using Tcl/Tk}
+\title{'SciViews::R' - Standard Dialog Boxes using Tcl/Tk}
 \description{
-Reimplementation of the 'svDialogs' dialog boxes in Tcl/Tk.
-}
-\details{
-Implementation of Tcl/Tk dialog boxes for {svDialogs}. When the package is
+Implementation of Tcl/Tk dialog boxes for \{svDialogs\}. When the package is
 loaded, it inserts a new \code{tcltkGUI} dependency in the \code{.GUI} object (if it is
 not defined yet). That way, every call to \code{.GUI} dispatches first to the
 current Tcl/Tk implementation of the dialog boxes. For your own, separate GUI
@@ -19,13 +16,13 @@ current Tcl/Tk implementation of the dialog boxes. For your own, separate GUI
 \section{Important functions}{
 
 \itemize{
-\item \code{\link[=dlg_message]{dlg_message()}} display a message box,
-\item \code{\link[=dlg_input]{dlg_input()}} prompt for textual input,
-\item \code{\link[=dlg_list]{dlg_list()}} select one or more items in a list,
-\item \code{\link[=dlg_open]{dlg_open()}} open one or more existing file(s),
-\item \code{\link[=dlg_save]{dlg_save()}} prompt for a file to save to (and ask confirmation if the file
+\item \code{\link[svDialogs:dlg_message]{svDialogs::dlg_message()}} display a message box,
+\item \code{\link[svDialogs:dlg_input]{svDialogs::dlg_input()}} prompt for textual input,
+\item \code{\link[svDialogs:dlg_list]{svDialogs::dlg_list()}} select one or more items in a list,
+\item \code{\link[svDialogs:dlg_open]{svDialogs::dlg_open()}} open one or more existing file(s),
+\item \code{\link[svDialogs:dlg_save]{svDialogs::dlg_save()}} prompt for a file to save to (and ask confirmation if the file
 already exists),
-\item \code{\link[=dlg_dir]{dlg_dir()}} select a directory,
+\item \code{\link[svDialogs:dlg_dir]{svDialogs::dlg_dir()}} select a directory,
 }
 }
 
@@ -34,6 +31,7 @@ Useful links:
 \itemize{
   \item \url{https://github.com/SciViews/svDialogstcltk}
   \item \url{https://www.sciviews.org/svDialogstcltk/}
+  \item \url{https://sciviews.r-universe.dev/svDialogstcltk}
   \item Report bugs at \url{https://github.com/SciViews/svDialogstcltk/issues}
 }
 
@@ -42,4 +40,3 @@ Useful links:
 \strong{Maintainer}: Philippe Grosjean \email{phgrosjean@sciviews.org} (\href{https://orcid.org/0000-0002-2694-9471}{ORCID})
 
 }
-\keyword{internal}

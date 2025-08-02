@@ -1,4 +1,4 @@
-#' A Tcl/Tk version of the {svDialogs} message box
+#' A Tcl/Tk version of the \{svDialogs\} message box
 #'
 #' @param message The message to display in the dialog box.
 #' @param type The type of dialog box: `'ok'`, `'okcancel'`, `'yesno'` or

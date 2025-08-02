@@ -2,7 +2,7 @@
 % Please edit documentation in R/dlg_save.tcltkGUI.R
 \name{dlg_save.tcltkGUI}
 \alias{dlg_save.tcltkGUI}
-\title{A Tcl/Tk version of the {svDialogs} file save dialog box}
+\title{A Tcl/Tk version of the \{svDialogs\} file save dialog box}
 \usage{
 \method{dlg_save}{tcltkGUI}(
   default = "untitled",
@@ -31,7 +31,7 @@ on MacOS, since such kind of filter is defined differently there.}
 The path to the file to save to.
 }
 \description{
-A Tcl/Tk version of the {svDialogs} file save dialog box
+A Tcl/Tk version of the \{svDialogs\} file save dialog box
 }
 \examples{
 library(svDialogstcltk) # Tcl/Tk dialog boxes are now used by default

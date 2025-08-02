@@ -2,7 +2,7 @@
 % Please edit documentation in R/dlg_open.tcltkGUI.R
 \name{dlg_open.tcltkGUI}
 \alias{dlg_open.tcltkGUI}
-\title{A Tcl/Tk version of the {svDialogs} file open dialog box}
+\title{A Tcl/Tk version of the \{svDialogs\} file open dialog box}
 \usage{
 \method{dlg_open}{tcltkGUI}(
   default = "",
@@ -24,7 +24,7 @@ start in a given directory).}
 \item{filters}{A specification of file filters as a \code{nx2} matrix, or a
 character string with even number of items. First items is the label, second
 one is the filter. See \code{dlg_filters} for examples. This is currently ignored
-on MacOS and RStudio, since such kind of filter is defined differently there.}
+on macOS and RStudio, since such kind of filter is defined differently there.}
 
 \item{...}{Not used yet.}
 
@@ -34,7 +34,7 @@ on MacOS and RStudio, since such kind of filter is defined differently there.}
 The path to the file to open.
 }
 \description{
-A Tcl/Tk version of the {svDialogs} file open dialog box
+A Tcl/Tk version of the \{svDialogs\} file open dialog box
 }
 \examples{
 library(svDialogstcltk) # Tcl/Tk dialog boxes are now used by default

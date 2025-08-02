@@ -2,7 +2,7 @@
 % Please edit documentation in R/dlg_list.tcltkGUI.R
 \name{dlg_list.tcltkGUI}
 \alias{dlg_list.tcltkGUI}
-\title{A Tcl/Tk version of the {svDialogs} list selection dialog box}
+\title{A Tcl/Tk version of the \{svDialogs\} list selection dialog box}
 \usage{
 \method{dlg_list}{tcltkGUI}(
   choices,
@@ -33,7 +33,7 @@ instead.}
 A character vector with the items that were selected by the user.
 }
 \description{
-A Tcl/Tk version of the {svDialogs} list selection dialog box
+A Tcl/Tk version of the \{svDialogs\} list selection dialog box
 }
 \examples{
 library(svDialogstcltk) # Tcl/Tk dialog boxes are now used by default

@@ -1,4 +1,4 @@
-#' A Tcl/Tk version of the {svDialogs} input a string or value dialog box
+#' A Tcl/Tk version of the \{svDialogs\} input a string or value dialog box
 #'
 #' Prompt for some data in a modal dialog box.
 #'

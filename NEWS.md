@@ -1,3 +1,9 @@
+# svDialogstcltk 1.0.1
+
+-   Updated CITATION file to the new format.
+
+-   Various corrections in the documentation.
+
 # svDialogstcltk 1.0.0
 
 -   All functions are renamed using snake_case. For instance, `dlgDir()` is now `dlg_dir()`.

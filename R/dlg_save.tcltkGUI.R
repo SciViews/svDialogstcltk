@@ -1,4 +1,4 @@
-#' A Tcl/Tk version of the {svDialogs} file save dialog box
+#' A Tcl/Tk version of the \{svDialogs\} file save dialog box
 #'
 #' @param default The default file to start with (use `/dir/*` or `/dir/*.*` to
 #' start in a given directory, but without predefined name).

@@ -2,7 +2,7 @@
 % Please edit documentation in R/dlg_message.tcltkGUI.R
 \name{dlg_message.tcltkGUI}
 \alias{dlg_message.tcltkGUI}
-\title{A Tcl/Tk version of the {svDialogs} message box}
+\title{A Tcl/Tk version of the \{svDialogs\} message box}
 \usage{
 \method{dlg_message}{tcltkGUI}(
   message,
@@ -25,7 +25,7 @@
 The button pressed by the user.
 }
 \description{
-A Tcl/Tk version of the {svDialogs} message box
+A Tcl/Tk version of the \{svDialogs\} message box
 }
 \examples{
 library(svDialogstcltk) # Tcl/Tk dialog boxes are now used by default

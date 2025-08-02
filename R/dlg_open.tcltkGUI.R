@@ -1,4 +1,4 @@
-#' A Tcl/Tk version of the {svDialogs} file open dialog box
+#' A Tcl/Tk version of the \{svDialogs\} file open dialog box
 #'
 #' @param default The default file to start with (use `/dir/*` or `/dir/*.*` to
 #' start in a given directory).
@@ -7,7 +7,7 @@
 #' @param filters A specification of file filters as a `nx2` matrix, or a
 #' character string with even number of items. First items is the label, second
 #' one is the filter. See `dlg_filters` for examples. This is currently ignored
-#' on MacOS and RStudio, since such kind of filter is defined differently there.
+#' on macOS and RStudio, since such kind of filter is defined differently there.
 #' @param ... Not used yet.
 #' @param gui The 'gui' object concerned by this dialog box.
 #'
